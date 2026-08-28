@@ -1,4 +1,3 @@
-# sahalpaladan.github.io
-# Sahal Paladan | Bioinformatician Portfolio
+# Sahal Paladan 
 
 🔗 **[Click here to view my live portfolio website!](https://sahalpaladan.github.io/)**

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahal Paladan | Bioinformatician Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --accent-color: #2ea44f; /* Terminal Green */
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --border-color: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-family: monospace;
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        h2 {
+            color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .exp-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .exp-company {
+            color: var(--accent-color);
+            font-weight: 500;
+            margin: 2px 0 10px 0;
+        }
+
+        .exp-date {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-family: monospace;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tag-group {
+            margin-bottom: 15px;
+        }
+
+        .tag-category {
+            font-weight: bold;
+            color: #ffffff;
+            display: inline-block;
+            width: 220px;
+        }
+
+        .tag {
+            font-family: monospace;
+            background-color: #21262d;
+            color: var(--accent-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .links a {
+            color: var(--text-main);
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sahal Paladan</h1>
+        <p class="subtitle">> bioinformatician --specialty "Epidemiology & Genomics"</p>
+        <p style="color: var(--text-muted); text-align: justify;">
+            Detail-oriented Bioinformatics Specialist and Project Research Scientist bridging population-level epidemiology and clinical genomics. Proven track record in developing open-source geospatial software (CRAN contributor), managing high-throughput Next-Generation Sequencing (NGS) analysis pipelines, and executing data-driven disease modeling.
+        </p>
+        <div class="links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="mailto:sahalpaladan@gmail.com">Email</a>
+            <span style="color: var(--text-muted); font-size: 0.9rem;">📍 Bengaluru, India</span>
+        </div>
+    </header>
+
+    <main>
+        <h2>Open Source Developments</h2>
+        <div class="card">
+            <h3 style="margin-top:0; color: #ffffff;">📦 GeoDensityR (CRAN Package)</h3>
+            <p style="color: var(--text-muted); margin-bottom:0;">Developer and maintainer of an open-source geospatial R package designed to seamlessly merge polygon vector boundaries with census/survey datasets to generate accurate density rasters.</p>
+        </div>
+
+        <h2>Work Experience</h2>
+        
+        <div class="experience-item">
+            <div class="exp-header">
+                <p class="exp-title">Project Research Scientist-1</p>
+                <span class="exp-date">Mar 2024 - Present</span>
+            </div>
+            <p class="exp-company">ICAR – National Institute of Veterinary Epidemiology and Disease Informatics, Bengaluru</p>
+            <ul>
+                <li><strong>Disease Modeling:</strong> Designed epidemiological models and phylodynamic workflows to track spatial diffusion and viral transmission.</li>
+                <li><strong>Data Integration:</strong> Merged large-scale genomic datasets with ecological variables to predict disease hotspots.</li>
+                <li><strong>Collaboration:</strong> Partnered with cross-functional teams of veterinarians, epidemiologists, and public health officials to deliver actionable reports.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <p class="exp-title">Bioinformatics Analyst</p>
+                <span class="exp-date">Sep 2022 - Jan 2024</span>
+            </div>
+            <p class="exp-company">Kyvor Genomics, Chennai</p>
+            <ul>
+                <li><strong>NGS Pipeline Optimization:</strong> Engineered and maintained automated end-to-end data analysis workflows for Whole Exome Sequencing (WES) and targeted oncology gene panels.</li>
+                <li><strong>Variant Evaluation & Call Workflows:</strong> Utilized standard bioinformatics command-line packages (GATK, BWA, Samtools) for precise somatic variant calling, structural variant filtering, and QC metrics generation.</li>
+                <li><strong>Clinical Knowledge Base Curation:</strong> Interpreted genomic variances by cross-referencing public databases (ClinVar, COSMIC, TCGA, gnomAD) to identify clinically actionable markers for oncology precision treatment platforms.</li>
+                <li><strong>Clinical Report Translation:</strong> Collaborated closely with translational medical teams to transform raw genomic pipeline outputs into comprehensive reports usable by on-site oncologist physicians.</li>
+            </ul>
+        </div>
+
+        <h2>Skills Architecture</h2>
+        <div style="background-color: var(--card-bg); border: 1px solid var(--border-color); padding: 20px; border-radius: 6px;">
+            <div class="tag-group">
+                <span class="tag-category">Languages & Shells:</span>
+                <span class="tag">R (Advanced)</span><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">Git/GitHub</span><span class="tag">LaTeX</span>
+            </div>
+            <div class="tag-group">
+                <span class="tag-category">Bioinformatics & Pipelines:</span>
+                <span class="tag">GATK</span><span class="tag">BWA</span><span class="tag">Samtools</span><span class="tag">VCFtools</span><span class="tag">IGV</span><span class="tag">FastQC</span><span class="tag">Phylodynamics</span>
+            </div>
+            <div class="tag-group">
+                <span class="tag-category">Geospatial & Data Science:</span>
+                <span class="tag">GIS Mapping</span><span class="tag">Raster Analytics</span><span class="tag">Spatial Statistics</span><span class="tag">ggplot2</span><span class="tag">Tidyverse</span>
+            </div>
+            <div class="tag-group">
+                <span class="tag-category">Core Domains & Cloud:</span>
+                <span class="tag">Clinical Cancer Genomics</span><span class="tag">Somatic Variant Calling</span><span class="tag">NGS</span><span class="tag">GCP</span>
+            </div>
+        </div>
+
+        <h2>Publications & Awards</h2>
+        <ul>
+            <li><strong>Best Oral Presentation Award</strong> - Virocon 2025 Conference.</li>
+            <li><strong>Published Research Paper:</strong> "Unravelling ecological factors influencing phylodynamics of Kyasanur Forest Disease in India." <em>Infection, Genetics and Evolution</em>, 134.</li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            <li><strong>M.Sc. Bioinformatics</strong> | Central University Pondicherry (2020-2022)</li>
+            <li><strong>B.Sc. Physics</strong> | Calicut University (2016-2019)</li>
+        </ul>
+    </main>
+
+    <footer style="margin-top: 60px; border-top: 1px solid var(--border-color); padding-top: 20px; color: var(--text-muted); font-size: 0.85rem; text-align: center;">
+        <p>&copy; 2026 Sahal Paladan. Hosted via GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
